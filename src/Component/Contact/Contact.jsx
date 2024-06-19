@@ -1,0 +1,71 @@
+import { Link } from "react-router-dom";
+
+const Contact = () => {
+  return (
+    <div className="mt-36 pb-36">
+      <div className="text-4xl text-center font-bold font-play_write text-[#55E6A5]">
+        Contact Me
+      </div>
+      {/* info */}
+      <div className="mt-10 grid md:grid-cols-3 gap-5">
+        <div className="w-80 text-center space-y-1 text-[#55E6A5] rounded-md bg-[#141C27] p-5">
+          <h4>Email:</h4>
+          <p>mohaiminul375@gmail.com</p>
+        </div>
+        <div className="w-80 text-center space-y-1 text-[#55E6A5] rounded-md bg-[#141C27] p-5">
+          <h4>Phone:</h4>
+          <p>+880 1533-057483</p>
+        </div>
+        <div className="w-80 text-center space-y-1 text-[#55E6A5] rounded-md bg-[#141C27] p-5">
+          <h4>LinkedIn:</h4>
+          <Link
+            target="_blank"
+            to="https://www.linkedin.com/in/md-mohaiminul-375m"
+          >
+            <p className="underline">Mohaiminul islam</p>
+          </Link>
+        </div>
+      </div>
+      <div className="mt-10">
+        <form action="">
+        <div className="flex gap-5">
+          <div className="form-control md:w-1/2">
+            <label className="label">
+              <span className="text-[#55E6A5]">Email</span>
+            </label>
+            <input
+              type="text"
+              placeholder="Your Name"
+              className="bg-[#141C27] h-11 rounded-md p-3 input-bordered"
+              required
+            />
+          </div>
+          <div className="form-control md:w-1/2">
+            <label className="label">
+              <span className="text-[#55E6A5]">Email</span>
+            </label>
+            <input
+              type="email"
+              placeholder="Your Email"
+              className="bg-[#141C27] h-11 rounded-md p-3 input-bordered"
+              required
+            />
+          </div>
+        </div>
+        <div className="mt-4">
+        <label className="label">
+              <span className="text-[#55E6A5]">Your Message</span>
+            </label>
+            <textarea className="w-full bg-[#141C27] rounded-md p-3 input-bordered" name="" id=""
+            placeholder="Your Message"
+             rows="5"
+            ></textarea>
+        </div>
+        <button className="mt-3 px-6 py-2 bg-[#55E6A5] rounded-md text-black font font-semibold">Submit</button>
+        </form>
+      </div>
+    </div>
+  );
+};
+
+export default Contact;

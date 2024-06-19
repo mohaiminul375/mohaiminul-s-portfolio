@@ -1,5 +1,6 @@
+import { Zoom } from "react-awesome-reveal";
 import { FaCode, FaMobileAlt } from "react-icons/fa";
-
+// import Zoom from 'react-reveal/Zoom';
 const Services = () => {
   return (
     <div className="mt-36">
@@ -9,6 +10,7 @@ const Services = () => {
       </div>
 
       <div className="grid md:grid-cols-3 gap-5 mt-10">
+        <Zoom triggerOnce={true}>
         <div className="bg-[#141C27] border-2 border-[#141C27] p-4 w-96 rounded-md">
           <div className="flex justify-center">
           <FaCode className="text-center text-4xl text-[#55E6A5]" />
@@ -21,6 +23,8 @@ const Services = () => {
             experience and an efficient, robust application.
           </p>
         </div>
+        </Zoom>
+        <Zoom triggerOnce={true}>
         <div className="bg-[#141C27] border-2 border-[#141C27] p-4 w-96 rounded-md">
           <div className="flex justify-center">
           <FaMobileAlt className="text-center text-4xl text-[#55E6A5]" />
@@ -30,6 +34,7 @@ const Services = () => {
             As a front-end developer, I am always responsible and determined to make every project responsive for better user interface and user experience.
           </p>
         </div>
+        </Zoom>
       </div>
     </div>
   );

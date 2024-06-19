@@ -1,8 +1,11 @@
 import About from "./Component/About/About";
 import Banner from "./Component/Banner/Banner";
+import Contact from "./Component/Contact/Contact";
 import Navbar from "./Component/Navbar/Navbar";
+import Projects from "./Component/Projects/Projects";
 import Services from "./Component/Services/Services";
 import Skills from "./Component/Skills/Skills";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
@@ -13,7 +16,10 @@ function App() {
         <About></About>
         <Skills></Skills>
         <Services></Services>
+        <Projects></Projects>
+        <Contact></Contact>
       </div>
+        <Footer></Footer>
     </>
   );
 }
