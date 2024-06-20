@@ -6,10 +6,10 @@ const Skills = () => {
       <div className="text-4xl text-center font-bold font-play_write text-[#55E6A5]">
         MY Skills
       </div>
-      <div className="mt-10 space-y-5">
+      <div className="mt-10 space-y-5 px-10 md:px-0">
         {/* row 1 */}
-        <div className="flex justify-between gap-8">
-          <div className="w-1/2">
+        <div className="flex flex-col md:flex-row justify-between gap-8">
+          <div className="md:w-1/2">
             <Zoom triggerOnce="false">
               <h3 className="text-xl font-bold">HTML</h3>
               <progress
@@ -20,7 +20,7 @@ const Skills = () => {
               <span>90%</span>
             </Zoom>
           </div>
-          <div className=" w-1/2">
+          <div className=" md:w-1/2">
             <Zoom triggerOnce="false">
               <h3 className="text-xl font-bold">CSS</h3>
               <progress
@@ -33,8 +33,8 @@ const Skills = () => {
           </div>
         </div>
         {/* row 2 */}
-        <div className="flex justify-between gap-8">
-          <div className="w-1/2">
+        <div className="flex flex-col md:flex-row justify-between gap-8">
+          <div className="md:w-1/2">
             <Zoom triggerOnce="false">
               <h3 className="text-xl font-bold">Tailwind Css</h3>
               <progress
@@ -45,7 +45,7 @@ const Skills = () => {
               <span>70%</span>
             </Zoom>
           </div>
-          <div className=" w-1/2">
+          <div className=" md:w-1/2">
             <Zoom triggerOnce="false">
               <h3 className="text-xl font-bold">Bootstrap</h3>
               <progress
@@ -58,8 +58,8 @@ const Skills = () => {
           </div>
         </div>
         {/* row 3 */}
-        <div className="flex justify-between gap-8">
-          <div className="w-1/2">
+        <div className="flex flex-col md:flex-row justify-between gap-8">
+          <div className="md:w-1/2">
             <Zoom triggerOnce="false">
               <h3 className="text-xl font-bold">Javascript</h3>
               <progress
@@ -70,7 +70,7 @@ const Skills = () => {
               <span>80%</span>
             </Zoom>
           </div>
-          <div className=" w-1/2">
+          <div className=" md:w-1/2">
             <Zoom triggerOnce="false">
               <h3 className="text-xl font-bold">React</h3>
               <progress
@@ -85,8 +85,8 @@ const Skills = () => {
           </div>
         </div>
         {/* row 4 */}
-        <div className="flex justify-between gap-8">
-          <div className="w-1/2">
+        <div className="flex flex-col md:flex-row justify-between gap-8">
+          <div className="md:w-1/2">
             <Zoom triggerOnce="false">
               <h3 className="text-xl font-bold">Node Js</h3>
               <progress
@@ -97,7 +97,7 @@ const Skills = () => {
               <span>70%</span>
             </Zoom>
           </div>
-          <div className=" w-1/2">
+          <div className=" md:w-1/2">
             <Zoom triggerOnce="false">
               <h3 className="text-xl font-bold">Express Js</h3>
               <progress
@@ -112,8 +112,8 @@ const Skills = () => {
           </div>
         </div>
         {/* row 4 */}
-        <div className="flex justify-between gap-8">
-          <div className="w-1/2">
+        <div className="flex flex-col md:flex-row justify-between gap-8">
+          <div className="md:w-1/2">
             <Zoom triggerOnce="false">
               <h3 className="text-xl font-bold">Mongo DB</h3>
               <progress
@@ -124,7 +124,7 @@ const Skills = () => {
               <span>70%</span>
             </Zoom>
           </div>
-          {/* <div className=" w-1/2">
+          {/* <div className=" md:w-1/2">
             <h3 className="text-xl font-bold">Express Js</h3>
             <progress
               className="progress progress-accent"

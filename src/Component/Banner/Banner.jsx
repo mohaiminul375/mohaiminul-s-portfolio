@@ -6,7 +6,7 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const Banner = () => {
   return (
-    <div className="px-20 pt-14" id="banner">
+    <div className="mx-10 md:mx-20 pt-28 md:pt-16" id="banner">
       <div className="flex-col md:flex md:flex-row justify-between items-center">
         <div>
           <Slide direction="left" triggerOnce={true} duration={3000}>

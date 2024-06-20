@@ -1,9 +1,30 @@
 import { Zoom } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
-
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_pjee3on", "template_26i91xl", form.current, {
+        publicKey: "Z0yHKQ7VzH6QrBIbN",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+          form.current.reset()
+          
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
   return (
-    <div className="mt-36 pb-36" id="contact">
+    <div className="mt-36 pb-36 px-10 md:px0" id="contact">
       <div className="text-4xl text-center font-bold font-play_write text-[#55E6A5]">
         Contact Me
       </div>
@@ -34,17 +55,19 @@ const Contact = () => {
         </Zoom>
       </div>
       <div className="mt-10">
-        <form action="">
-          <div className="flex gap-5">
+        {/* contact form */}
+        <form ref={form} onSubmit={sendEmail}>
+          <div className="flex flex-col md:flex-row gap-5">
             <div className="form-control md:w-1/2">
               <label className="label">
-                <span className="text-[#55E6A5]">Email</span>
+                <span className="text-[#55E6A5]">Your Name</span>
               </label>
               <input
                 type="text"
                 placeholder="Your Name"
                 className="bg-[#141C27] h-11 rounded-md p-3 input-bordered"
                 required
+                name="user_name"
               />
             </div>
             <div className="form-control md:w-1/2">
@@ -56,6 +79,7 @@ const Contact = () => {
                 placeholder="Your Email"
                 className="bg-[#141C27] h-11 rounded-md p-3 input-bordered"
                 required
+                name="user_email"
               />
             </div>
           </div>
@@ -65,7 +89,7 @@ const Contact = () => {
             </label>
             <textarea
               className="w-full bg-[#141C27] rounded-md p-3 input-bordered"
-              name=""
+              name="message"
               id=""
               placeholder="Your Message"
               rows="5"

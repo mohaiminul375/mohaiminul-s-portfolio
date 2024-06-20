@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-      <div className="bg-[#09101A] text-white font-inter px-10">
+      <div className="bg-[#09101A] text-white font-inter md:px-10">
         <Banner></Banner>
         <About></About>
         <Skills></Skills>

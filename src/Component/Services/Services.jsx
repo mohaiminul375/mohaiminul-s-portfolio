@@ -3,7 +3,7 @@ import { FaCode, FaMobileAlt } from "react-icons/fa";
 // import Zoom from 'react-reveal/Zoom';
 const Services = () => {
   return (
-    <div className="mt-36" id="services">
+    <div className="mt-36 px-10 md:px-0" id="services">
       <div className="text-4xl text-center font-bold font-play_write text-[#55E6A5]">
         {" "}
         MY Services
