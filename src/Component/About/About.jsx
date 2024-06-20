@@ -1,6 +1,6 @@
 import { Slide } from "react-awesome-reveal";
 import mern from "../../assets/MERN.png";
-import 'animate.css';
+
 const About = () => {
   return (
     <div className="mt-36">

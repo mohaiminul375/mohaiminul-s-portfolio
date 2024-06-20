@@ -16,12 +16,12 @@ const Navbar = () => {
     // </div>
     // </nav>
     <Slide
-      className="fixed w-full"
+      className="fixed w-full z-10"
       triggerOnce="false"
       duration={2000}
       direction="down"
     >
-      <div className="navbar h-16  bg-[#141C27] md:px-10 z-10">
+      <div className="navbar h-16  bg-[#141C27] md:px-10">
         <div className="navbar-start">
           <h2 className="text-3xl text-[#55E6A5] font-play_write">
             Mohaiminul Islam
