@@ -1,19 +1,36 @@
 import { Slide } from "react-awesome-reveal";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
+
 
 const Navbar = () => {
   const navLins = (
     <>
-      <Link className='text-white text-lg cursor-pointer' to="banner">Home</Link>
-      
-        <Link className='text-white text-lg cursor-pointer' to="about">About</Link>
-     
-        <Link className='text-white text-lg cursor-pointer' to="skills">Skills</Link>
-        <Link className='text-white text-lg cursor-pointer' to="services">Services</Link>
-        <Link className='text-white text-lg cursor-pointer' to="projects">Projects</Link>
-        <Link className='text-white text-lg cursor-pointer' to="contact">Contact</Link>
+      <Link className="text-white text-lg cursor-pointer" to="banner">
+        Home
+      </Link>
+
+      <Link className="text-white text-lg cursor-pointer" to="about">
+        About
+      </Link>
+
+      <Link className="text-white text-lg cursor-pointer" to="skills">
+        Skills
+      </Link>
+      <Link className="text-white text-lg cursor-pointer" to="services">
+        Services
+      </Link>
+      <Link className="text-white text-lg cursor-pointer" to="projects">
+        Projects
+      </Link>
+      <Link className="text-white text-lg cursor-pointer" to="contact">
+        Contact
+      </Link>
+      <RouterLink target="_blank" to='https://drive.google.com/file/d/1G15G1Tg1e5O9g_Bi2hwKW_pdXqSCSMv4/view' className="bg-[#55E6A5] px-3 rounded-md text-black py-1 font-medium flex items-center text-lg">
+        Resume
+      </RouterLink>
     </>
   );
   return (
@@ -36,7 +53,7 @@ const Navbar = () => {
         </div>
         <div className="flex-1"></div>
         <div className="hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 gap-4">{navLins}</ul>
+          <ul className="menu menu-horizontal px-1 gap-4 items-center">{navLins}</ul>
         </div>
         {/* dropdown */}
         <div className="dropdown dropdown-end">
