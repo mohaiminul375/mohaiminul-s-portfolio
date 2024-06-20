@@ -29,21 +29,21 @@ const Contact = () => {
         Contact Me
       </div>
       {/* info */}
-      <div className="mt-10 grid md:grid-cols-3 gap-5">
+      <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         <Zoom triggerOnce="false" duration={2000}>
-          <div className="w-80 text-center space-y-1 text-[#55E6A5] rounded-md bg-[#141C27] p-5">
+          <div className="md:w-80 text-center space-y-1 text-[#55E6A5] rounded-md bg-[#141C27] p-5">
             <h4>Email:</h4>
             <p>mohaiminul375@gmail.com</p>
           </div>
         </Zoom>
         <Zoom triggerOnce="false" duration={2000}>
-          <div className="w-80 text-center space-y-1 text-[#55E6A5] rounded-md bg-[#141C27] p-5">
+          <div className="md:w-80 text-center space-y-1 text-[#55E6A5] rounded-md bg-[#141C27] p-5">
             <h4>Phone:</h4>
             <p>+880 1533-057483</p>
           </div>
         </Zoom>
         <Zoom triggerOnce="false" duration={2000}>
-          <div className="w-80 text-center space-y-1 text-[#55E6A5] rounded-md bg-[#141C27] p-5">
+          <div className="md:w-80 text-center space-y-1 text-[#55E6A5] rounded-md bg-[#141C27] p-5">
             <h4>LinkedIn:</h4>
             <Link
               target="_blank"

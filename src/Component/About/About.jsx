@@ -14,12 +14,12 @@ const About = () => {
           <h2 className="text-3xl mb-3">Hi There,</h2>
           <h5 className="text-xl">
             This Mohaiminul Islam. Front-end Web Developer React with a strong passion
-            for coding. But My ultimate aspiration is to evolve into a Full Stack Web Development proficient in the MERN stack. Driven and results-oriented, I am eager to contribute
+            for coding. My ultimate aspiration is to evolve into a Full Stack Web Development proficient in the MERN stack. Driven and results-oriented, I am eager to contribute
             and demonstrate my skills through customized solutions, and
             validated projects, I am Always ready to prove myself through
             dedicated and impactful work
           </h5>
-          <div className="mt-10 grid grid-cols-2 gap-5">
+          <div className="mt-10 grid md:grid-cols-2 gap-5">
             <div>
               <h2 className="text-2xl font-bold mb-2">Name:</h2>
               <p className="text-xl">Mohaiminul Islam</p>

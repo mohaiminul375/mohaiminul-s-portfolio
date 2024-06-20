@@ -9,10 +9,10 @@ const Projects = () => {
       <div className="text-4xl text-center font-bold font-play_write text-[#55E6A5]">
         MY Projects
       </div>
-      <div className="mt-10 grid md:grid-cols-3 gap-5">
+      <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {/* project-1 */}
         <Zoom triggerOnce='false' duration={2000}>
-        <div className="group relative items-center justify-center overflow-hidden cursor-pointer w-96">
+        <div className="group relative items-center justify-center overflow-hidden cursor-pointer md:w-96">
           <div className="w-full rounded-md ">
             <img
               className="w-full rounded-lg group-hover:scale-105 transition-transform duration-1000"
@@ -51,7 +51,7 @@ const Projects = () => {
         </Zoom>
         {/* project-2 */}
         <Zoom triggerOnce='false' duration={2000}>
-        <div className="group relative items-center justify-center overflow-hidden cursor-pointer w-96">
+        <div className="group relative items-center justify-center overflow-hidden cursor-pointer md:w-96">
           <div className="w-full rounded-md ">
             <img
               className="w-full rounded-lg group-hover:scale-105 transition-transform duration-1000"
@@ -90,7 +90,7 @@ const Projects = () => {
         </Zoom>
         {/* project-3 */}
         <Zoom triggerOnce='false' duration={2000}>
-        <div className="group relative items-center justify-center overflow-hidden cursor-pointer w-96">
+        <div className="group relative items-center justify-center overflow-hidden cursor-pointer md:w-96">
           <div className="w-full rounded-md ">
             <img
               className="w-full rounded-lg group-hover:scale-105 transition-transform duration-1000"
