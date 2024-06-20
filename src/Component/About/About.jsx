@@ -3,7 +3,7 @@ import mern from "../../assets/MERN.png";
 
 const About = () => {
   return (
-    <div className="mt-36">
+    <div className="mt-36" id="about">
       <div className="text-4xl text-center font-bold font-play_write text-[#55E6A5]">
         About Me
       </div>

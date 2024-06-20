@@ -1,12 +1,19 @@
 import { Slide } from "react-awesome-reveal";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const navLins = (
     <>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="#projects">Project</NavLink>
+      <Link className='text-white text-lg cursor-pointer' to="banner">Home</Link>
+      
+        <Link className='text-white text-lg cursor-pointer' to="about">About</Link>
+     
+        <Link className='text-white text-lg cursor-pointer' to="skills">Skills</Link>
+        <Link className='text-white text-lg cursor-pointer' to="services">Services</Link>
+        <Link className='text-white text-lg cursor-pointer' to="projects">Projects</Link>
+        <Link className='text-white text-lg cursor-pointer' to="contact">Contact</Link>
     </>
   );
   return (

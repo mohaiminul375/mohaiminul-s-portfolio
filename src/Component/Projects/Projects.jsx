@@ -5,7 +5,7 @@ import scas from "../../assets/scas.png"
 import { Zoom } from "react-awesome-reveal";
 const Projects = () => {
   return (
-    <div className="mt-36">
+    <div className="mt-36" id="projects">
       <div className="text-4xl text-center font-bold font-play_write text-[#55E6A5]">
         MY Projects
       </div>

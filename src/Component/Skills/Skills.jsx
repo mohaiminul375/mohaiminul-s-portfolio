@@ -2,7 +2,7 @@ import { Zoom } from "react-awesome-reveal";
 
 const Skills = () => {
   return (
-    <div className="mt-36">
+    <div className="mt-36" id="skills">
       <div className="text-4xl text-center font-bold font-play_write text-[#55E6A5]">
         MY Skills
       </div>

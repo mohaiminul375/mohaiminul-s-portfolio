@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
-    <div className="mt-36 pb-36">
+    <div className="mt-36 pb-36" id="contact">
       <div className="text-4xl text-center font-bold font-play_write text-[#55E6A5]">
         Contact Me
       </div>
