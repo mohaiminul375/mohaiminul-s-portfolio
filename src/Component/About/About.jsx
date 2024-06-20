@@ -1,6 +1,6 @@
 import { Slide } from "react-awesome-reveal";
 import mern from "../../assets/MERN.png";
-
+import 'animate.css';
 const About = () => {
   return (
     <div className="mt-36">
@@ -10,7 +10,7 @@ const About = () => {
       <div className="mt-10 flex justify-between items-center">
     
         <div className="w-1/2">
-        <Slide direction="right" triggerOnce={true}>
+        <Slide direction="right" triggerOnce={true} duration={2000}>
           <h2 className="text-3xl mb-3">Hi There,</h2>
           <h5 className="text-xl">
             This Mohaiminul Islam. Front-end Web Developer React with a strong passion
@@ -41,7 +41,7 @@ const About = () => {
         </div>
         
         <div className="w-1/2 flex justify-center">
-        <Slide direction="left" triggerOnce={true}>
+        <Slide direction="left" triggerOnce={true} duration={2000}>
           <img src={mern} alt="" />
           </Slide>
         </div>

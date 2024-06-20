@@ -6,10 +6,10 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const Banner = () => {
   return (
-    <div className="px-20">
+    <div className="px-20 pt-14">
       <div className="flex-col md:flex md:flex-row justify-between items-center">
         <div>
-          <Slide direction="left" triggerOnce={true} delay={1000}>
+          <Slide direction="left" triggerOnce={true} duration={3000}>
             <h2 className="text-4xl mb-2">Hi,</h2>
             <h2 className="text-5xl font-inter">Mohaiminul Islam is there</h2>
             <h3 className="text-3xl text-[#55E6A5] mt-3">
@@ -59,7 +59,7 @@ const Banner = () => {
         </div>
         {/* image */}
         <div>
-          <Slide direction="right" triggerOnce={true}>
+          <Slide direction="right" triggerOnce={true} duration={3000}>
             <img src={profile} alt="" />
           </Slide>
         </div>
