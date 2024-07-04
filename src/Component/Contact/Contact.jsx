@@ -2,6 +2,7 @@ import { Zoom } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import toast, { Toaster } from "react-hot-toast";
 const Contact = () => {
   const form = useRef();
 
@@ -14,9 +15,15 @@ const Contact = () => {
       })
       .then(
         () => {
+          toast.success("Message send successfully", {
+            style: {
+              borderRadius: "10px",
+              background: "#333",
+              color: "#fff",
+            },
+          });
           console.log("SUCCESS!");
-          form.current.reset()
-          
+          form.current.reset();
         },
         (error) => {
           console.log("FAILED...", error.text);
@@ -100,6 +107,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
+      <Toaster position="top-center" reverseOrder={false} />
     </div>
   );
 };

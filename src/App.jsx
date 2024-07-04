@@ -1,6 +1,7 @@
 import About from "./Component/About/About";
 import Banner from "./Component/Banner/Banner";
 import Contact from "./Component/Contact/Contact";
+import Education from "./Component/Education/Education";
 import Navbar from "./Component/Navbar/Navbar";
 import Projects from "./Component/Projects/Projects";
 import Services from "./Component/Services/Services";
@@ -15,6 +16,7 @@ function App() {
         <Banner></Banner>
         <About></About>
         <Skills></Skills>
+        <Education></Education>
         <Services></Services>
         <Projects></Projects>
         <Contact></Contact>
