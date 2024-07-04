@@ -1,4 +1,3 @@
-import React from "react";
 import { FaGraduationCap } from "react-icons/fa";
 
 const Education = () => {
@@ -10,14 +9,12 @@ const Education = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
         <div className="bg-[#141C27] border-2 border-[#141C27] p-4 md:w-96 rounded-md">
           <div className="flex justify-center">
-          <FaGraduationCap className="text-center text-4xl text-[#55E6A5]" />
+            <FaGraduationCap className="text-center text-4xl text-[#55E6A5]" />
           </div>
           <h4 className="text-2xl mt-5">BBA-in Management,</h4>
           <h5 className="font-bold">Govt. Edward College, Pabna</h5>
-          
-          <p className="text-[#55E6A5] mt-2">
-           2023- current
-          </p>
+
+          <p className="text-[#55E6A5] mt-2">2023- current</p>
         </div>
       </div>
     </div>
