@@ -19,6 +19,9 @@ const Navbar = () => {
       <Link className="text-white text-lg cursor-pointer" to="skills">
         Skills
       </Link>
+      <Link className="text-white text-lg cursor-pointer" to="education">
+        Education
+      </Link>
       <Link className="text-white text-lg cursor-pointer" to="services">
         Services
       </Link>

@@ -1,9 +1,18 @@
+import { FaXmark } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 
 const GroupGuruModal = () => {
     return (
         <div className="modal-box md:max-w-2xl bg-[#09101A] text-white font-inter p-14">
+            <div className="flex justify-end">
+        <form method="dialog">
+          {/* if there is a button in form, it will close the modal */}
+          <button className="p-1 rounded-full border-2 border-red-700 text-red-500">
+            <FaXmark />
+          </button>
+        </form>
+      </div>
       <h2 className="text-[#55E6A5] text-2xl font-bold">Group Guru</h2>
       <h5 className="font-bold mb-5">
         A Full-stack Online group study assignment Website
