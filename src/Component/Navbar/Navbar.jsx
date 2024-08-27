@@ -31,7 +31,7 @@ const Navbar = () => {
       <Link className="text-white text-lg cursor-pointer" to="contact">
         Contact
       </Link>
-      <RouterLink target="_blank" to='https://drive.google.com/file/d/1G15G1Tg1e5O9g_Bi2hwKW_pdXqSCSMv4/view' className="bg-[#55E6A5] px-3 rounded-md text-black py-1 font-medium flex items-center text-lg">
+      <RouterLink target="_blank" to='https://drive.google.com/file/d/11mQ_DQQSfmcs3btSdHhbPRCazmpuYnFJ/view' className="bg-[#55E6A5] px-3 rounded-md text-black py-1 font-medium flex items-center text-lg">
         Resume
       </RouterLink>
     </>
