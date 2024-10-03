@@ -61,7 +61,7 @@ const Navbar = () => {
         {/* dropdown */}
         <div className="dropdown dropdown-end">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-            <GiHamburgerMenu />
+            <GiHamburgerMenu className="text-[#55E6A5]" />
           </div>
           <ul
             tabIndex={0}
