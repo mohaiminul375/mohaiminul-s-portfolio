@@ -9,7 +9,7 @@ const Services = () => {
         MY Services
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
+      <div className="flex flex-col justify-center md:flex-row gap-5 mt-10">
         <Zoom triggerOnce={true} duration={2000}>
           <div className="bg-[#141C27] border-2 border-[#141C27] p-4 md:w-96 rounded-md">
             <div className="flex justify-center">
@@ -33,10 +33,10 @@ const Services = () => {
               Responsive Development
             </h4>
             <p>
-              I am dedicated to creating responsive projects. My
-              focus is on delivering exceptional user interfaces and enhancing
-              user experiences. I always strive for the highest standards in
-              every project.
+              I am dedicated to creating responsive projects. My focus is on
+              delivering exceptional user interfaces and enhancing user
+              experiences. I always strive for the highest standards in every
+              project.
             </p>
           </div>
         </Zoom>

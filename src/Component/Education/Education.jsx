@@ -6,7 +6,7 @@ const Education = () => {
       <div className="text-4xl text-center font-bold font-play_write text-[#55E6A5]">
         MY Education
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
+      <div className="flex justify-center items-center mt-10">
         <div className="bg-[#141C27] border-2 border-[#141C27] p-4 md:w-96 rounded-md">
           <div className="flex justify-center">
             <FaGraduationCap className="text-center text-4xl text-[#55E6A5]" />
