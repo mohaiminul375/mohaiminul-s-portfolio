@@ -57,19 +57,33 @@ const Skills = () => {
             </Zoom>
           </div>
         </div>
-        {/* row 3 */}
+        {/* row3 */}
         <div className="flex flex-col md:flex-row justify-between gap-8">
+          <div className="md:w-1/2">
+            <Zoom triggerOnce="false">
+              <h3 className="text-xl font-bold">ShadCn UI</h3>
+              <progress
+                className="progress progress-accent"
+                value="70"
+                max="100"
+              ></progress>
+              <span>70%</span>
+            </Zoom>
+          </div>
           <div className="md:w-1/2">
             <Zoom triggerOnce="false">
               <h3 className="text-xl font-bold">Javascript</h3>
               <progress
                 className="progress progress-accent"
-                value="80"
+                value="70"
                 max="100"
               ></progress>
-              <span>80%</span>
+              <span>70%</span>
             </Zoom>
           </div>
+        </div>
+        {/* row 3 */}
+        <div className="flex flex-col md:flex-row justify-between gap-8">
           <div className=" md:w-1/2">
             <Zoom triggerOnce="false">
               <h3 className="text-xl font-bold">React</h3>
@@ -77,62 +91,67 @@ const Skills = () => {
                 className="progress progress-accent"
                 value="80"
                 max="100"
-              >
-                70%
-              </progress>
+              ></progress>
               <span>80%</span>
+            </Zoom>
+          </div>
+          <div className=" md:w-1/2">
+            <Zoom triggerOnce="false">
+              <h3 className="text-xl font-bold">Next.Js</h3>
+              <progress
+                className="progress progress-accent"
+                value="70"
+                max="100"
+              ></progress>
+              <span>70%</span>
             </Zoom>
           </div>
         </div>
         {/* row 4 */}
         <div className="flex flex-col md:flex-row justify-between gap-8">
+          <div className="md:w-1/2">
+            <Zoom triggerOnce="false">
+              <h3 className="text-xl font-bold">Typescript</h3>
+              <progress
+                className="progress progress-accent"
+                value="50"
+                max="100"
+              ></progress>
+              <span>50%</span>
+            </Zoom>
+          </div>
           <div className="md:w-1/2">
             <Zoom triggerOnce="false">
               <h3 className="text-xl font-bold">Node Js</h3>
               <progress
                 className="progress progress-accent"
-                value="70"
+                value="40"
                 max="100"
               ></progress>
-              <span>70%</span>
-            </Zoom>
-          </div>
-          <div className=" md:w-1/2">
-            <Zoom triggerOnce="false">
-              <h3 className="text-xl font-bold">Express Js</h3>
-              <progress
-                className="progress progress-accent"
-                value="70"
-                max="100"
-              >
-                70%
-              </progress>
-              <span>70%</span>
+              <span>40%</span>
             </Zoom>
           </div>
         </div>
         {/* row 4 */}
         <div className="flex flex-col md:flex-row justify-between gap-8">
+          <div className=" md:w-1/2">
+            <h3 className="text-xl font-bold">Express Js</h3>
+            <progress className="progress progress-accent" value="40" max="100">
+           
+            </progress>
+            <span>40%</span>
+          </div>
           <div className="md:w-1/2">
             <Zoom triggerOnce="false">
               <h3 className="text-xl font-bold">Mongo DB</h3>
               <progress
                 className="progress progress-accent"
-                value="70"
+                value="40"
                 max="100"
               ></progress>
-              <span>70%</span>
+              <span>40%</span>
             </Zoom>
           </div>
-          {/* <div className=" md:w-1/2">
-            <h3 className="text-xl font-bold">Express Js</h3>
-            <progress
-              className="progress progress-accent"
-              value="70"
-              max="100"
-            >70%</progress>
-            <span>70%</span>
-          </div> */}
         </div>
       </div>
     </div>
