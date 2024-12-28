@@ -58,7 +58,7 @@ const Banner = () => {
               >
                 Hire Me
               </ScrollLink>
-              <a href="https://drive.google.com/uc?export=download&id=1G15G1Tg1e5O9g_Bi2hwKW_pdXqSCSMv4">
+              <a href="https://drive.google.com/file/d/1G15G1Tg1e5O9g_Bi2hwKW_pdXqSCSMv4/view?usp=drive_link">
                 <button className="bg-[#55E6A5] px-1 md:px-3 rounded-md text-black md:py-3 font-medium flex items-center text-lg">
                   Download Resume
                   <MdOutlineFileDownload className="text-xl" />
