@@ -13,15 +13,17 @@ function App() {
     <>
       <Navbar></Navbar>
       <div className="bg-[#09101A] text-white font-inter md:px-10">
-        <Banner></Banner>
-        <About></About>
-        <Skills></Skills>
-        <Education></Education>
-        <Services></Services>
-        <Projects></Projects>
-        <Contact></Contact>
+        <div className="md:max-w-7xl mx-auto">
+          <Banner></Banner>
+          <About></About>
+          <Skills></Skills>
+          <Education></Education>
+          <Services></Services>
+          <Projects></Projects>
+          <Contact></Contact>
+        </div>
       </div>
-        <Footer></Footer>
+      <Footer></Footer>
     </>
   );
 }

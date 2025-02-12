@@ -42,7 +42,7 @@ const ElectroHubModal = () => {
           <span>
             {" "}
             HTML, Tailwind CSS, NextUI, Next.Js, Typescript, Next Auth,
-            Express.js, Mongo DB.
+            Express.js, Mongo DB, SSLCommerz(Payment).
           </span>
         </h3>
         <div className="mt-4 flex items-center justify-between">

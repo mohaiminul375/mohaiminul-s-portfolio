@@ -2,7 +2,7 @@ import { Typewriter } from "react-simple-typewriter";
 import profile from "../../assets/My-Profile-Photo.png";
 import { Slide } from "react-awesome-reveal";
 import { MdOutlineFileDownload } from "react-icons/md";
-import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { Link as RouterLink } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 const Banner = () => {
@@ -49,6 +49,9 @@ const Banner = () => {
               </RouterLink>
               <RouterLink to="https://github.com/mohaiminul375" target="_blank">
                 <FaGithub />
+              </RouterLink>
+              <RouterLink to="https://wa.me/+8801533057483" target="_blank">
+                <FaWhatsapp />
               </RouterLink>
             </div>
             <div className="mt-5 flex items-center gap-3">
