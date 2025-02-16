@@ -19,8 +19,9 @@ const Banner = () => {
                 {/* Style will be inherited from the parent element */}
                 <Typewriter
                   words={[
-                    " Front-end Developer",
+                    "Front-end Developer",
                     "React Developer",
+                    "Next.js Developer",
                     "Junior MREN Stack Developer",
                   ]}
                   loop={5}
