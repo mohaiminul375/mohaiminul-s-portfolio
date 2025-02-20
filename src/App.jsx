@@ -17,9 +17,9 @@ function App() {
           <Banner></Banner>
           <About></About>
           <Skills></Skills>
-          <Education></Education>
           <Services></Services>
           <Projects></Projects>
+          <Education></Education>
           <Contact></Contact>
         </div>
       </div>
