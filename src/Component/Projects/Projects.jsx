@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import merit_matrix from "../../assets/merit-matrix-project.png";
 import group_guru from "../../assets/group_guru.png";
 import nihongo_dojo from "../../assets/nihongo-dojo.png";
@@ -16,15 +15,15 @@ const Projects = () => {
       <div className="text-4xl text-center font-bold font-play_write text-[#55E6A5]">
         My Projects
       </div>
-      <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div className="mt-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
         {/* project-1 */}
         <Zoom triggerOnce="false" duration={2000}>
-          <div className="group relative items-center justify-center overflow-hidden cursor-pointer md:w-96">
+          <div className="group relative items-center justify-center overflow-hidden cursor-pointer md:w-[350px] xl:w-96">
             <div className="w-full rounded-md">
               <img
                 className="w-full rounded-lg group-hover:scale-105 transition-transform duration-1000"
                 src={electro_hub}
-                alt=""
+                alt="home_page"
               />
             </div>
             {/* Default image visibility with minimal dark on hover */}
@@ -55,12 +54,12 @@ const Projects = () => {
         {/* project-2 */}
 
         <Zoom triggerOnce="false" duration={2000}>
-          <div className="group relative items-center justify-center overflow-hidden cursor-pointer md:w-96">
+          <div className="group relative items-center justify-center overflow-hidden cursor-pointer md:w-[350px] xl:w-96">
             <div className="w-full rounded-md">
               <img
                 className="w-full rounded-lg group-hover:scale-105 transition-transform duration-1000"
                 src={merit_matrix}
-                alt=""
+                alt="home_page"
               />
             </div>
             {/* Default image visibility with minimal dark on hover */}
@@ -90,12 +89,12 @@ const Projects = () => {
 
         {/* project-2 */}
         <Zoom triggerOnce="false" duration={2000}>
-          <div className="group relative items-center justify-center overflow-hidden cursor-pointer md:w-96">
+          <div className="group relative items-center justify-center overflow-hidden cursor-pointer md:w-[350px] xl:w-96">
             <div className="w-full rounded-md">
               <img
                 className="w-full rounded-lg group-hover:scale-105 transition-transform duration-1000"
                 src={nihongo_dojo}
-                alt=""
+                alt="home_page"
               />
             </div>
             {/* Default image visibility with minimal dark on hover */}
@@ -125,12 +124,12 @@ const Projects = () => {
 
         {/* project-3 */}
         <Zoom triggerOnce="false" duration={2000}>
-          <div className="group relative items-center justify-center overflow-hidden cursor-pointer md:w-96">
+          <div className="group relative items-center justify-center overflow-hidden cursor-pointer md:w-[350px] xl:w-96">
             <div className="w-full rounded-md">
               <img
                 className="w-full rounded-lg group-hover:scale-105 transition-transform duration-1000"
                 src={group_guru}
-                alt=""
+                alt="home_page"
               />
             </div>
             {/* Default image visibility with minimal dark on hover */}

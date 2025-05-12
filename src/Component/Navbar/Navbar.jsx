@@ -4,34 +4,65 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-scroll";
 import { Link as RouterLink } from "react-router-dom";
 
-
 const Navbar = () => {
   const navLins = (
     <>
-      <Link className="text-white text-lg cursor-pointer" to="banner">
+      <Link
+        className="text-white text-lg cursor-pointer"
+        smooth={true}
+        to="banner"
+      >
         Home
       </Link>
 
-      <Link className="text-white text-lg cursor-pointer" to="about">
+      <Link
+        className="text-white text-lg cursor-pointer"
+        to="about"
+        smooth={true}
+      >
         About
       </Link>
 
-      <Link className="text-white text-lg cursor-pointer" to="skills">
+      <Link
+        className="text-white text-lg cursor-pointer"
+        to="skills"
+        smooth={true}
+      >
         Skills
       </Link>
-      <Link className="text-white text-lg cursor-pointer" to="education">
+      <Link
+        className="text-white text-lg cursor-pointer"
+        to="education"
+        smooth={true}
+      >
         Education
       </Link>
-      <Link className="text-white text-lg cursor-pointer" to="services">
+      <Link
+        className="text-white text-lg cursor-pointer"
+        to="services"
+        smooth={true}
+      >
         Services
       </Link>
-      <Link className="text-white text-lg cursor-pointer" to="projects">
+      <Link
+        className="text-white text-lg cursor-pointer"
+        smooth={true}
+        to="projects"
+      >
         Projects
       </Link>
-      <Link className="text-white text-lg cursor-pointer" to="contact">
+      <Link
+        className="text-white text-lg cursor-pointer"
+        smooth={true}
+        to="contact"
+      >
         Contact
       </Link>
-      <RouterLink target="_blank" to='https://drive.google.com/file/d/1G15G1Tg1e5O9g_Bi2hwKW_pdXqSCSMv4/view?usp=drive_link' className="bg-[#55E6A5] px-3 rounded-md text-black py-1 font-medium flex items-center text-lg">
+      <RouterLink
+        target="_blank"
+        to="https://drive.google.com/file/d/1G15G1Tg1e5O9g_Bi2hwKW_pdXqSCSMv4/view?usp=drive_link"
+        className="bg-[#55E6A5] px-3 rounded-md text-black py-1 font-medium flex items-center text-lg"
+      >
         Resume
       </RouterLink>
     </>
@@ -56,7 +87,9 @@ const Navbar = () => {
         </div>
         <div className="flex-1"></div>
         <div className="hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 gap-4 items-center">{navLins}</ul>
+          <ul className="menu menu-horizontal px-1 gap-4 items-center">
+            {navLins}
+          </ul>
         </div>
         {/* dropdown */}
         <div className="dropdown dropdown-end">
