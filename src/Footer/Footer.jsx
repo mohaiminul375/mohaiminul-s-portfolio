@@ -16,6 +16,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
+        {/* ICONS */}
         <div className="mt-5 flex items-center text-3xl text-[#55E6A5] justify-center gap-5">
           <Link
             to="https://www.linkedin.com/in/md-mohaiminul-375m"
@@ -32,6 +33,11 @@ const Footer = () => {
           <Link to="https://wa.me/+8801533057483" target="_blank">
             <FaWhatsapp />
           </Link>
+        </div>
+        <div>
+          <h4 className="text-[#55E6A5] text-center mt-3">
+            © All Rights and reserved by Mohaiminl Islam 2024-2025
+          </h4>
         </div>
       </div>
     </div>

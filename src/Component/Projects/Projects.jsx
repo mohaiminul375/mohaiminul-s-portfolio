@@ -14,7 +14,7 @@ const Projects = () => {
   return (
     <div className="mt-36 px-10 md:px-0" id="projects">
       <div className="text-4xl text-center font-bold font-play_write text-[#55E6A5]">
-        MY Projects
+        My Projects
       </div>
       <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {/* project-1 */}

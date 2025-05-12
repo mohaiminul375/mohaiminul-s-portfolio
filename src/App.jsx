@@ -12,13 +12,13 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-      <div className="bg-[#09101A] text-white font-inter md:px-10">
+      <div className="bg-[#09101A] text-white font-inter md:px-10 pt-5">
         <div className="md:max-w-7xl mx-auto">
           <Banner></Banner>
           <About></About>
           <Skills></Skills>
           <Services></Services>
-          <Projects></Projects>
+          {/* <Projects></Projects> */}
           <Education></Education>
           <Contact></Contact>
         </div>

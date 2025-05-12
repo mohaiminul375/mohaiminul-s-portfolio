@@ -4,7 +4,7 @@ const Education = () => {
   return (
     <div className="mt-36 px-10 md:px0" id="education">
       <div className="text-4xl text-center font-bold font-play_write text-[#55E6A5]">
-        MY Education
+        My Education
       </div>
       <div className="flex justify-center items-center mt-10">
         <div className="bg-[#141C27] border-2 border-[#141C27] p-4 md:w-96 rounded-md">

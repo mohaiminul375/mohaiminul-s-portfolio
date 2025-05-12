@@ -6,7 +6,7 @@ const Services = () => {
     <div className="mt-36 px-10 md:px-0" id="services">
       <div className="text-4xl text-center font-bold font-play_write text-[#55E6A5]">
         {" "}
-        MY Services
+        My Services
       </div>
 
       <div className="flex flex-col justify-center md:flex-row gap-5 mt-10">
