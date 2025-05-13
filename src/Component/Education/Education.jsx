@@ -1,3 +1,4 @@
+import { Zoom } from "react-awesome-reveal";
 import { FaGraduationCap } from "react-icons/fa";
 
 const Education = () => {
@@ -7,15 +8,17 @@ const Education = () => {
         My Education
       </div>
       <div className="flex justify-center items-center mt-10">
-        <div className="bg-[#141C27] border-2 border-[#141C27] p-4 md:w-96 rounded-md">
-          <div className="flex justify-center">
-            <FaGraduationCap className="text-center text-4xl text-[#55E6A5]" />
-          </div>
-          <h4 className="text-2xl mt-5">BBA-in Management,</h4>
-          <h5 className="font-bold">Govt. Edward College, Pabna</h5>
+        <Zoom triggerOnce={true} duration={2000}>
+          <div className="bg-[#141C27] border-2 border-[#141C27] p-4 md:w-96 rounded-md">
+            <div className="flex justify-center">
+              <FaGraduationCap className="text-center text-4xl text-[#55E6A5]" />
+            </div>
+            <h4 className="text-2xl mt-5">BBA-in Management,</h4>
+            <h5 className="font-bold">Govt. Edward College, Pabna</h5>
 
-          <p className="text-[#55E6A5] mt-2">2023- current</p>
-        </div>
+            <p className="text-[#55E6A5] mt-2">2023- current</p>
+          </div>
+        </Zoom>
       </div>
     </div>
   );

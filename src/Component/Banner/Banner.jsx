@@ -10,7 +10,7 @@ const Banner = () => {
     <div className="mx-10 md:mx-20 pt-28 md:pt-16" id="banner">
       <div className="flex-col md:flex md:flex-row justify-between items-center">
         <div>
-          <Slide direction="left" triggerOnce={true} duration={3000}>
+          <Slide direction="left" triggerOnce={true} duration={2000}>
             <h2 className="text-4xl mb-2">Hi,</h2>
             <h2 className="text-5xl font-inter">Mohaiminul Islam is there</h2>
             <h3 className="text-3xl text-[#55E6A5] mt-3">
@@ -73,7 +73,7 @@ const Banner = () => {
         </div>
         {/* image */}
         <div className="mt-5 md:mt-0">
-          <Slide direction="right" triggerOnce={true} duration={3000}>
+          <Slide direction="right" triggerOnce={true} duration={2000}>
             <img
               className="rounded-full border border-[#55E6A5] shadow-lg shadow-[#55E6A5] "
               src={profile}

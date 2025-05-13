@@ -11,8 +11,8 @@ const Footer = () => {
               Mohaiminul Islam
             </h2>
             <p className="text-[#55E6A5]">
-              Hi Thanks for visit my website. That's All of you need to know
-              about me And You Can connect with me social media.
+              Hi Thanks for visit my website. That&apos;s All of you need to
+              know about me And You Can connect with me social media.
             </p>
           </div>
         </div>
@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
         <div>
           <h4 className="text-[#55E6A5] text-center mt-3">
-            © All Rights and reserved by Mohaiminl Islam 2024-2025
+            © All Rights and reserved by Mohaiminul Islam 2024-2025
           </h4>
         </div>
       </div>

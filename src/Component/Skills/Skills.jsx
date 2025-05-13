@@ -1,4 +1,4 @@
-import { Zoom } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 import html from "../../../src/assets/tech-logo/html-5.svg";
 import css from "../../../src/assets/tech-logo/css-3.svg";
 import tailwind from "../../../src/assets/tech-logo/tailwindcss_icon.png"; // fix needed
@@ -27,81 +27,95 @@ const Skills = () => {
         {/* row -1 Front-End */}
         <div className="mt-10">
           <h2 className="text-xl mb-5 underline text-[#55E6A5] font-bold font-play_write">
-            Front-End
+            Front - End
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-5 xl:grid-cols-7 gap-16">
-            <div className="bg-[#141C27] p-3 rounded-md flex flex-col justify-center items-center">
-              <img
-                height={40}
-                width={40}
-                src={html}
-                alt="html"
-                className="transition-transform duration-500 hover:rotate-[360deg]"
-              />
-              <h5 className="text-center mt-3">HTML</h5>
-            </div>
-            <div className="bg-[#141C27] p-3 rounded-md flex flex-col justify-center items-center">
-              <img
-                height={40}
-                width={40}
-                src={css}
-                alt="css"
-                className="transition-transform duration-500 hover:rotate-[360deg]"
-              />
-              <h5 className="text-center mt-3">CSS</h5>
-            </div>
-            <div className="bg-[#141C27] flex flex-col justify-center items-center p-3 rounded-md">
-              <img
-                height={40}
-                width={40}
-                src={tailwind}
-                alt="tailwind"
-                className="transition-transform duration-500 hover:rotate-[360deg]"
-              />
-              <h5 className="text-center mt-3">
-                Tailwind <br /> CSS
-              </h5>
-            </div>
-            <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
-              <img
-                height={40}
-                width={40}
-                src={js}
-                alt="javascript"
-                className="transition-transform duration-500 hover:rotate-[360deg]"
-              />
-              <h5 className="text-center mt-3">Javascript</h5>
-            </div>
-            <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
-              <img
-                height={40}
-                width={40}
-                src={typescript}
-                alt="typescript"
-                className="transition-transform duration-500 hover:rotate-[360deg]"
-              />
-              <h5 className="text-center mt-3">Typescript</h5>
-            </div>
-            <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
-              <img
-                height={40}
-                width={40}
-                src={react}
-                alt="react"
-                className="transition-transform duration-500 hover:rotate-[360deg]"
-              />
-              <h5 className="text-center mt-3">React</h5>
-            </div>
-            <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
-              <img
-                height={40}
-                width={40}
-                src={next_js}
-                alt="next.Js"
-                className="transition-transform duration-500 hover:rotate-[360deg]"
-              />
-              <h5 className="text-center mt-3">Next.Js</h5>
-            </div>
+            <Slide direction="down" triggerOnce={true} duration={2000}>
+              <div className="bg-[#141C27] p-3 rounded-md flex flex-col justify-center items-center">
+                <img
+                  height={40}
+                  width={40}
+                  src={html}
+                  alt="html"
+                  className="transition-transform duration-500 hover:rotate-[360deg]"
+                />
+                <h5 className="text-center mt-3">HTML</h5>
+              </div>
+            </Slide>
+            <Slide direction="up" triggerOnce={true} duration={2000}>
+              <div className="bg-[#141C27] p-3 rounded-md flex flex-col justify-center items-center">
+                <img
+                  height={40}
+                  width={40}
+                  src={css}
+                  alt="css"
+                  className="transition-transform duration-500 hover:rotate-[360deg]"
+                />
+                <h5 className="text-center mt-3">CSS</h5>
+              </div>
+            </Slide>
+            <Slide direction="down" triggerOnce={true} duration={2000}>
+              <div className="bg-[#141C27] flex flex-col justify-center items-center p-3 rounded-md">
+                <img
+                  height={40}
+                  width={40}
+                  src={tailwind}
+                  alt="tailwind"
+                  className="transition-transform duration-500 hover:rotate-[360deg]"
+                />
+                <h5 className="text-center mt-3">
+                  Tailwind <br /> CSS
+                </h5>
+              </div>
+            </Slide>
+            <Slide direction="up" triggerOnce={true} duration={2000}>
+              <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
+                <img
+                  height={40}
+                  width={40}
+                  src={js}
+                  alt="javascript"
+                  className="transition-transform duration-500 hover:rotate-[360deg]"
+                />
+                <h5 className="text-center mt-3">Javascript</h5>
+              </div>
+            </Slide>
+            <Slide direction="down" triggerOnce={true} duration={2000}>
+              <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
+                <img
+                  height={40}
+                  width={40}
+                  src={typescript}
+                  alt="typescript"
+                  className="transition-transform duration-500 hover:rotate-[360deg]"
+                />
+                <h5 className="text-center mt-3">Typescript</h5>
+              </div>
+            </Slide>
+            <Slide direction="up" triggerOnce={true} duration={2000}>
+              <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
+                <img
+                  height={40}
+                  width={40}
+                  src={react}
+                  alt="react"
+                  className="transition-transform duration-500 hover:rotate-[360deg]"
+                />
+                <h5 className="text-center mt-3">React</h5>
+              </div>
+            </Slide>
+            <Slide direction="down" triggerOnce={true} duration={2000}>
+              <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
+                <img
+                  height={40}
+                  width={40}
+                  src={next_js}
+                  alt="next.Js"
+                  className="transition-transform duration-500 hover:rotate-[360deg]"
+                />
+                <h5 className="text-center mt-3">Next.Js</h5>
+              </div>
+            </Slide>
           </div>
         </div>
         {/* row -2  Backend*/}
@@ -110,46 +124,54 @@ const Skills = () => {
             Back - End
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-5 xl:grid-cols-7 gap-16">
-            <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
-              <img
-                height={40}
-                width={40}
-                src={node}
-                alt="node"
-                className="transition-transform duration-500 hover:rotate-[360deg]"
-              />
-              <h5 className="text-center mt-3">Node.Js</h5>
-            </div>
-            <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
-              <img
-                height={40}
-                width={40}
-                src={express}
-                alt="express"
-                className="transition-transform duration-500 hover:rotate-[360deg]"
-              />
-              <h5 className="text-center mt-3">Express.Js</h5>
-            </div>
-            <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center">
-              <img
-                height={40}
-                width={40}
-                src={mongo_DB}
-                alt="mongo_db"
-                className="transition-transform duration-500 hover:rotate-[360deg]"
-              />
-              <h5 className="text-center mt-3">MongoDB</h5>
-            </div>
-            <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center">
-              <img
-                height={40}
-                width={40}
-                src={jwt}
-                alt="jwt"
-                className="transition-transform duration-500 hover:rotate-[360deg]"
-              />
-              <h5 className="text-center mt-3">JWT</h5>
-            </div>
+            <Slide direction="left" triggerOnce={true} duration={2000}>
+              <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
+                <img
+                  height={40}
+                  width={40}
+                  src={node}
+                  alt="node"
+                  className="transition-transform duration-500 hover:rotate-[360deg]"
+                />
+                <h5 className="text-center mt-3">Node.Js</h5>
+              </div>
+            </Slide>
+            <Slide direction="left" triggerOnce={true} duration={3000}>
+              <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
+                <img
+                  height={40}
+                  width={40}
+                  src={express}
+                  alt="express"
+                  className="transition-transform duration-500 hover:rotate-[360deg]"
+                />
+                <h5 className="text-center mt-3">Express.Js</h5>
+              </div>
+            </Slide>
+            <Slide direction="left" triggerOnce={true} duration={3000}>
+              <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center">
+                <img
+                  height={40}
+                  width={40}
+                  src={mongo_DB}
+                  alt="mongo_db"
+                  className="transition-transform duration-500 hover:rotate-[360deg]"
+                />
+                <h5 className="text-center mt-3">MongoDB</h5>
+              </div>
+            </Slide>
+            <Slide direction="left" triggerOnce={true} duration={3000}>
+              <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center">
+                <img
+                  height={40}
+                  width={40}
+                  src={jwt}
+                  alt="jwt"
+                  className="transition-transform duration-500 hover:rotate-[360deg]"
+                />
+                <h5 className="text-center mt-3">JWT</h5>
+              </div>
+            </Slide>
           </div>
         </div>
         {/* row -3 */}
@@ -158,77 +180,90 @@ const Skills = () => {
             Tools and Others
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-5 xl:grid-cols-7 gap-16">
-            <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
-              <img
-                height={40}
-                width={40}
-                src={vs_code}
-                alt="vs_code"
-                className="transition-transform duration-500 hover:rotate-[360deg]"
-              />
-              <h5 className="text-center mt-3">VS Code</h5>
-            </div>
-            <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
-              <img
-                height={90}
-                width={80}
-                src={github}
-                alt="github"
-                className="transition-transform duration-500 hover:rotate-[360deg]"
-              />
-              <h5 className="text-center mt-3">Github</h5>
-            </div>
-            <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
-              <img
-                height={50}
-                width={90}
-                src={netlify}
-                alt="vercel"
-                className="transition-transform duration-500 hover:rotate-[360deg]"
-              />
-              <h5 className="text-center mt-3">Netlify</h5>
-            </div>
-            <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
-              <img
-                height={50}
-                width={80}
-                src={vercel}
-                alt="vercel"
-                className="transition-transform duration-500 hover:rotate-[360deg]"
-              />
-              <h5 className="text-center mt-3">Vercel</h5>
-            </div>
-            <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
-              <img
-                height={40}
-                width={40}
-                src={vite}
-                alt="vite"
-                className="transition-transform duration-500 hover:rotate-[360deg]"
-              />
-              <h5 className="text-center mt-3">Vite</h5>
-            </div>
-            <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
-              <img
-                height={50}
-                width={40}
-                src={firebase}
-                alt="firebase"
-                className="transition-transform duration-500 hover:rotate-[360deg]"
-              />
-              <h5 className="text-center mt-3">Firebase</h5>
-            </div>
-
-            <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
-              <img
-                height={40}
-                width={40}
-                src={figma}
-                alt="figma"
-                className="transition-transform duration-500 hover:rotate-[360deg]"
-              />
-              <h5 className="text-center mt-3">Figma</h5>
-            </div>
+            <Slide direction="right" triggerOnce={true} duration={1000}>
+              <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
+                <img
+                  height={40}
+                  width={40}
+                  src={vs_code}
+                  alt="vs_code"
+                  className="transition-transform duration-500 hover:rotate-[360deg]"
+                />
+                <h5 className="text-center mt-3">VS Code</h5>
+              </div>
+            </Slide>
+            <Slide direction="right" triggerOnce={true} duration={1000}>
+              <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
+                <img
+                  height={90}
+                  width={80}
+                  src={github}
+                  alt="github"
+                  className="transition-transform duration-500 hover:rotate-[360deg]"
+                />
+                <h5 className="text-center mt-3">Github</h5>
+              </div>
+            </Slide>
+            <Slide direction="right" triggerOnce={true} duration={2000}>
+              <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
+                <img
+                  height={50}
+                  width={90}
+                  src={netlify}
+                  alt="vercel"
+                  className="transition-transform duration-500 hover:rotate-[360deg]"
+                />
+                <h5 className="text-center mt-3">Netlify</h5>
+              </div>
+            </Slide>
+            <Slide direction="right" triggerOnce={true} duration={2000}>
+              <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
+                <img
+                  height={50}
+                  width={80}
+                  src={vercel}
+                  alt="vercel"
+                  className="transition-transform duration-500 hover:rotate-[360deg]"
+                />
+                <h5 className="text-center mt-3">Vercel</h5>
+              </div>
+            </Slide>
+            <Slide direction="right" triggerOnce={true} duration={3000}>
+              <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
+                <img
+                  height={40}
+                  width={40}
+                  src={vite}
+                  alt="vite"
+                  className="transition-transform duration-500 hover:rotate-[360deg]"
+                />
+                <h5 className="text-center mt-3">Vite</h5>
+              </div>
+            </Slide>
+            <Slide direction="right" triggerOnce={true} duration={3000}>
+              <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
+                <img
+                  height={50}
+                  width={40}
+                  src={firebase}
+                  alt="firebase"
+                  className="transition-transform duration-500 hover:rotate-[360deg]"
+                />
+                <h5 className="text-center mt-3">Firebase</h5>
+              </div>
+            </Slide>
+            <Slide direction="right" triggerOnce={true} duration={3500}>
+              <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
+                <img
+                  height={40}
+                  width={40}
+                  src={figma}
+                  alt="figma"
+                  className="transition-transform duration-500 hover:rotate-[360deg]"
+                />
+                <h5 className="text-center mt-3">Figma</h5>
+              </div>
+            </Slide>
           </div>
         </div>
       </div>
