@@ -1,5 +1,5 @@
 import { Slide } from "react-awesome-reveal";
-import mern from "../../assets/MERN.png";
+import mern from "../../assets/MERN_2.png";
 
 const About = () => {
   return (
@@ -49,7 +49,7 @@ const About = () => {
 
         <div className="mt-5 md:mt-0 md:w-1/2 flex justify-center">
           <Slide direction="left" triggerOnce={true} duration={2000}>
-            <img src={mern} alt="" />
+            <img src={mern} alt="" className="bg-white rounded-full" />
           </Slide>
         </div>
       </div>
