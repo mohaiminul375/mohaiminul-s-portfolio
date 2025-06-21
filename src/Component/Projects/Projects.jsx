@@ -1,14 +1,18 @@
 import merit_matrix from "../../assets/merit-matrix-project.png";
-import group_guru from "../../assets/group_guru.png";
+// import group_guru from "../../assets/group_guru.png";
 import nihongo_dojo from "../../assets/nihongo-dojo.png";
 import electro_hub from "../../assets/electro-hub.png";
-import scas from "../../assets/scas.png";
+import form_pilot from "../../assets/form-pilot.png";
+import zen_task from "../../assets/zen-task.png";
+// import scas from "../../assets/scas.png";
 import { Zoom } from "react-awesome-reveal";
 import MeritMatrixModal from "./MeritMatrixModal";
-import GroupGuruModal from "./GroupGuruModal";
-import ScacModal from "./ScacModal";
+// import GroupGuruModal from "./GroupGuruModal";
+// import ScacModal from "./ScacModal";
 import Nihongo from "./Nihongo";
 import ElectroHubModal from "./ElectroHubModal";
+import ZenTask from "./ZenTask";
+import FormPilot from "./FormPilot";
 const Projects = () => {
   return (
     <div className="mt-36 px-10 md:px-0" id="projects">
@@ -52,7 +56,6 @@ const Projects = () => {
         </Zoom>
 
         {/* project-2 */}
-
         <Zoom triggerOnce="false" duration={2000}>
           <div className="group relative items-center justify-center overflow-hidden cursor-pointer md:w-[350px] xl:w-96">
             <div className="w-full rounded-md">
@@ -87,7 +90,41 @@ const Projects = () => {
           </div>
         </Zoom>
 
-        {/* project-2 */}
+        {/* project-3 */}
+        <Zoom triggerOnce="false" duration={2000}>
+          <div className="group relative items-center justify-center overflow-hidden cursor-pointer md:w-[350px] xl:w-96">
+            <div className="w-full rounded-md">
+              <img
+                className="w-full rounded-lg group-hover:scale-105 transition-transform duration-1000"
+                src={zen_task}
+                alt="home_page"
+              />
+            </div>
+            {/* Default image visibility with minimal dark on hover */}
+            <div className="absolute inset-0 bg-[#09101A]/30 group-hover:bg-[#09101A]/80 transition-all duration-500"></div>
+            <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[55%] space-y-1 group-hover:translate-y-0 transition-all">
+              <h3 className="text-2xl text-black bg-[#55E6A5] group-hover:bg-transparent group-hover:text-white p-2 rounded-md duration-300 transition-all">
+                Zen Task
+              </h3>
+              <p className="text-lg opacity-0 group-hover:opacity-100 transition-opacity">
+                A Full Stack Kanban Dashboard
+              </p>
+              <h3
+                onClick={() =>
+                  document.getElementById("my_modal_4").showModal()
+                }
+                className="opacity-0 group-hover:opacity-100 transition-opacity hover:underline hover:font-bold"
+              >
+                View Details
+              </h3>
+            </div>
+            {/* modal */}
+            <dialog id="my_modal_4" className="modal">
+              <FormPilot />
+            </dialog>
+          </div>
+        </Zoom>
+        {/* project-4 */}
         <Zoom triggerOnce="false" duration={2000}>
           <div className="group relative items-center justify-center overflow-hidden cursor-pointer md:w-[350px] xl:w-96">
             <div className="w-full rounded-md">
@@ -122,7 +159,7 @@ const Projects = () => {
           </div>
         </Zoom>
 
-        {/* project-3 */}
+        {/* project-
         <Zoom triggerOnce="false" duration={2000}>
           <div className="group relative items-center justify-center overflow-hidden cursor-pointer md:w-[350px] xl:w-96">
             <div className="w-full rounded-md">
@@ -132,7 +169,7 @@ const Projects = () => {
                 alt="home_page"
               />
             </div>
-            {/* Default image visibility with minimal dark on hover */}
+            Default image visibility with minimal dark on hover
             <div className="absolute inset-0 bg-[#09101A]/30 group-hover:bg-[#09101A]/80 transition-all duration-500"></div>
             <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[55%] space-y-1 group-hover:translate-y-0 transition-all">
               <h3 className="text-2xl text-black bg-[#55E6A5] group-hover:bg-transparent group-hover:text-white p-2 rounded-md duration-300 transition-all">
@@ -151,25 +188,25 @@ const Projects = () => {
                 View Details
               </h3>
             </div>
-            {/* modal */}
+            modal
             <dialog id="my_modal_3" className="modal">
               <GroupGuruModal></GroupGuruModal>
             </dialog>
           </div>
-        </Zoom>
+        </Zoom> */}
 
-        {/* project-5 */}
-        <Zoom triggerOnce="false" duration={2000}>
-          <div className="group relative items-center justify-center overflow-hidden cursor-pointer md:w-96">
-            {/* <div className="w-full rounded-md ">
+        {/* project- */}
+        {/* <Zoom triggerOnce="false" duration={2000}>
+          <div className="group relative items-center justify-center overflow-hidden cursor-pointer md:w-96"> */}
+        {/* <div className="w-full rounded-md ">
               <img
                 className="w-full rounded-lg group-hover:scale-105 transition-transform duration-1000"
                 src={scas}
                 alt=""
               />
             </div> */}
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-[#55E6A5]/90 group-hover:via-[#55E6A5]/30 group-hover:to-[#55E6A5]/90"></div>
-            {/* <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[55%] space-y-1 group-hover:translate-y-0 transition-all">
+        {/* <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-[#55E6A5]/90 group-hover:via-[#55E6A5]/30 group-hover:to-[#55E6A5]/90"></div> */}
+        {/* <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[55%] space-y-1 group-hover:translate-y-0 transition-all">
               <h3 className="text-2xl text-[#55E6A5] group-hover:text-white">
                 Safia's Creative art studio
               </h3>
@@ -185,10 +222,44 @@ const Projects = () => {
                 View Details
               </h3>
             </div> */}
-            {/* modal */}
-            {/* <dialog id="my_modal_4" className="modal">
+        {/* modal */}
+        {/* <dialog id="my_modal_4" className="modal">
               <ScacModal></ScacModal>
             </dialog> */}
+        {/* </div>
+        </Zoom> */}
+        {/* project-5 */}
+        <Zoom triggerOnce="false" duration={2000}>
+          <div className="group relative items-center justify-center overflow-hidden cursor-pointer md:w-[350px] xl:w-96">
+            <div className="w-full rounded-md">
+              <img
+                className="w-full rounded-lg group-hover:scale-105 transition-transform duration-1000"
+                src={form_pilot}
+                alt="home_page"
+              />
+            </div>
+            {/* Default image visibility with minimal dark on hover */}
+            <div className="absolute inset-0 bg-[#09101A]/30 group-hover:bg-[#09101A]/80 transition-all duration-500"></div>
+            <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[55%] space-y-1 group-hover:translate-y-0 transition-all">
+              <h3 className="text-2xl text-black bg-[#55E6A5] group-hover:bg-transparent group-hover:text-white p-2 rounded-md duration-300 transition-all">
+                Form Pilot
+              </h3>
+              <p className="text-lg opacity-0 group-hover:opacity-100 transition-opacity">
+                A Simple Form validation site with Zod and React hook Form
+              </p>
+              <h3
+                onClick={() =>
+                  document.getElementById("my_modal_4").showModal()
+                }
+                className="opacity-0 group-hover:opacity-100 transition-opacity hover:underline hover:font-bold"
+              >
+                View Details
+              </h3>
+            </div>
+            {/* modal */}
+            <dialog id="my_modal_4" className="modal">
+              <ZenTask />
+            </dialog>
           </div>
         </Zoom>
       </div>
