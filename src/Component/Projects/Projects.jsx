@@ -111,7 +111,7 @@ const Projects = () => {
               </p>
               <h3
                 onClick={() =>
-                  document.getElementById("my_modal_4").showModal()
+                  document.getElementById("my_modal_3").showModal()
                 }
                 className="opacity-0 group-hover:opacity-100 transition-opacity hover:underline hover:font-bold"
               >
@@ -119,8 +119,8 @@ const Projects = () => {
               </h3>
             </div>
             {/* modal */}
-            <dialog id="my_modal_4" className="modal">
-              <FormPilot />
+            <dialog id="my_modal_3" className="modal">
+              <ZenTask />
             </dialog>
           </div>
         </Zoom>
@@ -249,7 +249,7 @@ const Projects = () => {
               </p>
               <h3
                 onClick={() =>
-                  document.getElementById("my_modal_4").showModal()
+                  document.getElementById("my_modal_5").showModal()
                 }
                 className="opacity-0 group-hover:opacity-100 transition-opacity hover:underline hover:font-bold"
               >
@@ -257,8 +257,8 @@ const Projects = () => {
               </h3>
             </div>
             {/* modal */}
-            <dialog id="my_modal_4" className="modal">
-              <ZenTask />
+            <dialog id="my_modal_5" className="modal">
+              <FormPilot />
             </dialog>
           </div>
         </Zoom>
