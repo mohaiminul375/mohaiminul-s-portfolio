@@ -205,19 +205,19 @@ const Skills = () => {
               </div>
             </Slide>
             <Slide direction="right" triggerOnce={true} duration={2000}>
-              <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
+              <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center hf">
                 <img
                   height={50}
                   width={90}
                   src={netlify}
-                  alt="vercel"
+                  alt="netlify"
                   className="transition-transform duration-500 hover:rotate-[360deg]"
                 />
                 <h5 className="text-center mt-3">Netlify</h5>
               </div>
             </Slide>
             <Slide direction="right" triggerOnce={true} duration={2000}>
-              <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center">
+              <div className="bg-[#141C27] p-3 rounded-md flex flex-col items-center justify-center h-full">
                 <img
                   height={50}
                   width={80}

@@ -1,5 +1,6 @@
 import { Zoom } from "react-awesome-reveal";
 import { FaCode, FaMobileAlt } from "react-icons/fa";
+import api from "../../assets/api.svg"
 // import Zoom from 'react-reveal/Zoom';
 const Services = () => {
   return (
@@ -9,9 +10,9 @@ const Services = () => {
         My Services
       </div>
 
-      <div className="flex flex-col justify-center md:flex-row gap-5 mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
         <Zoom triggerOnce={true} duration={2000}>
-          <div className="bg-[#141C27] border-2 border-[#141C27] p-4 md:w-96 rounded-md">
+          <div className="bg-[#141C27] border-2 border-[#141C27] p-4 rounded-md">
             <div className="flex justify-center">
               <FaCode className="text-center text-4xl text-[#55E6A5]" />
             </div>
@@ -25,7 +26,7 @@ const Services = () => {
           </div>
         </Zoom>
         <Zoom triggerOnce={true} duration={2000}>
-          <div className="bg-[#141C27] border-2 border-[#141C27] p-4 md:w-96 rounded-md">
+          <div className="bg-[#141C27] border-2 border-[#141C27] p-4 rounded-md">
             <div className="flex justify-center">
               <FaMobileAlt className="text-center text-4xl text-[#55E6A5]" />
             </div>
@@ -37,6 +38,17 @@ const Services = () => {
               delivering exceptional user interfaces and enhancing user
               experiences. I always strive for the highest standards in every
               project.
+            </p>
+          </div>
+        </Zoom>
+        <Zoom triggerOnce={true} duration={2000}>
+          <div className="bg-[#141C27] border-2 border-[#141C27] p-4 rounded-md h-full">
+            <div className="flex justify-center">
+           <img className="w-10" src={api} alt="" />
+            </div>
+            <h4 className="text-center text-2xl my-3">API Integration</h4>
+            <p>
+              I am dedicated to Connecting websites with external services through APIs (like Rest APi, payment gateways, authentication, etc.)
             </p>
           </div>
         </Zoom>
