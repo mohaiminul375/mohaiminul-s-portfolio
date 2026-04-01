@@ -1,6 +1,7 @@
 import { Zoom } from "react-awesome-reveal";
 import { FaCode, FaMobileAlt } from "react-icons/fa";
-import api from "../../assets/api.svg"
+import api from "../../assets/api.svg";
+import { TbApi } from "react-icons/tb";
 // import Zoom from 'react-reveal/Zoom';
 const Services = () => {
   return (
@@ -44,11 +45,14 @@ const Services = () => {
         <Zoom triggerOnce={true} duration={2000}>
           <div className="bg-[#141C27] border-2 border-[#141C27] p-4 rounded-md h-full">
             <div className="flex justify-center">
-           <img className="w-10" src={api} alt="" />
+              {/* <img className="w-10" src={api} alt="" /> */}
+              <TbApi className="text-center text-5xl text-[#55E6A5]" />
             </div>
             <h4 className="text-center text-2xl my-3">API Integration</h4>
             <p>
-              I am dedicated to Connecting websites with external services through APIs (like Rest APi, payment gateways, authentication, etc.)
+              I am dedicated to Connecting websites with external services
+              through APIs (like Rest APi, payment gateways, authentication,
+              etc.)
             </p>
           </div>
         </Zoom>

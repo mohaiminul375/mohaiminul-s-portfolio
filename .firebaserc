@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "mohaiminul-dev"
-  }
+  },
+  "targets": {
+    "mohaiminul-dev": {
+      "hosting": {
+        "mohaiminul-dev": [
+          "mohaiminul-dev"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

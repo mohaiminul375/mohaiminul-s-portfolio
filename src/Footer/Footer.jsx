@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
         <div>
           <h4 className="text-[#55E6A5] text-center mt-3">
-            © All Rights and reserved by Mohaiminul Islam 2024-2025
+            © All Rights and reserved by Mohaiminul Islam 2024-2026
           </h4>
         </div>
       </div>
